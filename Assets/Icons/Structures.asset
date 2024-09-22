@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a41296bddd102439b8389a8a92a995, type: 3}
+  m_Name: Structures
+  m_EditorClassIdentifier: 
+  _icons:
+  - iconName: Town
+    iconSprite: {fileID: 21300000, guid: 5b99450a4fbd5aa4aa43daa50351afaf, type: 3}
+  - iconName: Ruin
+    iconSprite: {fileID: 21300000, guid: d9b120f9fbd2aad4d9121d53addc987f, type: 3}
+  - iconName: Mine
+    iconSprite: {fileID: 21300000, guid: 9c472dffa9631364f98a1556fdb0770c, type: 3}
+  - iconName: Bandit Camp
+    iconSprite: {fileID: 21300000, guid: d3dc0d23db0f2ff4bb73125b05c4c544, type: 3}
+  - iconName: Shrine
+    iconSprite: {fileID: 21300000, guid: b8fbaa7da2f99b34481b56634a0c06c4, type: 3}
+  - iconName: Cave
+    iconSprite: {fileID: 21300000, guid: feee8bf9f1c46954a81255c6e0bde7f5, type: 3}
