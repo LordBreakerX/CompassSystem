@@ -22,7 +22,6 @@ namespace LordBreakerX
 
         private void Update()
         {
-            print(CanShowIcon());
 
             if (SimpleFPSController.Instance == null) return;
 

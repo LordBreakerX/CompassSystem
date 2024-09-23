@@ -230,7 +230,9 @@ namespace LordBreakerX.CompassSystem
         {
             if (compassIcon.CanFade())
             {
-                float percentage = PercentageUtility.InvertedPercentageNormalized(compassIcon.distanceFromLocator, _maxAlphaDistance, _maxViewDistance);
+                float distance = Vector3.Distance(_playerTransform.position, compassIcon.landmarkTransform.position);
+
+                float percentage = PercentageUtility.InvertedPercentageNormalized(distance, _maxAlphaDistance, _maxViewDistance);
                 float currentAlpha = PercentageUtility.MapNormalizedPercentage(percentage, _minAlpha, MAX_ALPHA);
                 compassIcon.iconImage.color = new Color(1, 1, 1, currentAlpha / MAX_ALPHA);
             }
