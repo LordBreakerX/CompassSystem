@@ -116,6 +116,8 @@ namespace LordBreakerX.CompassSystem
                     SizeIcon(iconPair.Value);
                 }
             }
+
+            CheckLandmarksInRange();
         }
 
         #region Main Compass Methods
@@ -177,6 +179,37 @@ namespace LordBreakerX.CompassSystem
         }
 
         #endregion
+
+        private void CheckLandmarksInRange()
+        {
+            if (Landmark.Landmarks.Count > 0)
+            {
+                foreach (Landmark landmark in Landmark.Landmarks)
+                {
+                    float distance = Vector3.Distance(_playerTransform.position, landmark.transform.position);
+
+                    bool canMakeIconVisible = (distance <= _maxViewDistance || landmark.CanIgnoreDistance()) && landmark.CanShowIcon();
+                    ChangeIconVisible(landmark, canMakeIconVisible);
+
+                    if (HasLandmarkIcon(landmark.LandmarkName))
+                    {
+                        UpdateIconDistance(landmark.LandmarkName, distance);
+                    }
+                }
+            }
+        }
+
+        private void ChangeIconVisible(Landmark landmark, bool visible)
+        {
+            if (visible && !HasLandmarkIcon(landmark.LandmarkName))
+            {
+                AddIcon(landmark.LandmarkName, landmark.GetCompassIcon());
+            }
+            else if (!visible && HasLandmarkIcon(landmark.LandmarkName))
+            {
+                RemoveIcon(landmark.LandmarkName);
+            }
+        }
 
         public bool HasLandmarkIcon(string landmarkName)
         {

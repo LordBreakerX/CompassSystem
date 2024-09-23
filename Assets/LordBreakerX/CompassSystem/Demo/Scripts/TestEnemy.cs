@@ -17,15 +17,14 @@ namespace LordBreakerX
 
         private void Awake()
         {
-            _landmarkName = _landmarkName + GetInstanceID();
             _agent = GetComponent<NavMeshAgent>();
         }
 
         private void Update()
         {
-            if (SimpleFPSController.Instance == null) return;
+            print(CanShowIcon());
 
-            print(_isAgroed);
+            if (SimpleFPSController.Instance == null) return;
 
             if (Vector3.Distance(SimpleFPSController.Instance.transform.position, transform.position) < _maxDistance)
             {
@@ -55,7 +54,13 @@ namespace LordBreakerX
 
         public override bool CanShowIcon()
         {
-            return _isAgroed; //|| _agent.velocity.magnitude > 0.1f;
+            return _isAgroed || _agent.velocity.magnitude > 0.1f;
+        }
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = new Color(1, 0, 0, 0.5f);
+            Gizmos.DrawSphere(transform.position, _maxDistance / 2);
         }
     }
 }
