@@ -236,6 +236,10 @@ namespace LordBreakerX.CompassSystem
                 float currentAlpha = PercentageUtility.MapNormalizedPercentage(percentage, _minAlpha, MAX_ALPHA);
                 compassIcon.iconImage.color = new Color(1, 1, 1, currentAlpha / MAX_ALPHA);
             }
+            else
+            {
+                compassIcon.iconImage.color = Color.white;
+            }
         }
 
         private void SizeIcon(CompassIcon compassIcon)

@@ -43,7 +43,7 @@ namespace LordBreakerX
 
         public override bool CanFadeIcon()
         {
-            return false;
+            return true;
         }
 
         public override bool CanIgnoreDistance()
