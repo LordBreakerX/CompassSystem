@@ -1,3 +1,4 @@
-# Test
+# How to Install
 
+## Setup
 test
