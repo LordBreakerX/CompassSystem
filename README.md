@@ -26,8 +26,3 @@ You can integrate the Compass system into your Unity project by either importing
    - Or, if you want to add the Compass system to an existing Unity project, drag the `LordBreakerX` folder into your project's **Assets** folder or directly into the **Project** window in Unity.
 
 > ⚠️ **Note:** This option includes the demo content by default, located at `LordBreakerX/CompassSystem/Demo` folder from your project's `Assets` directory. If you prefer not to include the demo, you can simply delete this folder after importing.
-
-# Getting Started
-## Adding the compass user interface (UI)
-## Creating Landmarks
-## Adding landmark icons
