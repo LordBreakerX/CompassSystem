@@ -14,6 +14,8 @@ You can integrate the Compass system into your Unity project by either importing
 6. In the **Project** window, right-click and choose **Import Package > Custom Package...**.
 7. Locate the `.unitypackage` file you just downloaded and click **Open** to import it.
 
+> ℹ️ **Note:** If you imported the `CompassWithDemo` package and want to remove the demo content, you can delete the `LordBreakerX/CompassSystem/Demo` folder from your project's `Assets` directory.
+
 ## Option 2: Downloading the Full Project as a ZIP
 
 1. From the root of the repository, click the green **Code** button.
@@ -23,7 +25,7 @@ You can integrate the Compass system into your Unity project by either importing
    - Open Unity Hub and add the unzipped folder as a full Unity project.
    - Or, if you want to add the Compass system to an existing Unity project, drag the `LordBreakerX` folder into your project's **Assets** folder or directly into the **Project** window in Unity.
 
-> ⚠️ **Note:** This option includes the demo content by default, located at `LordBreakerX/CompassSystem/Demo`. If you prefer not to include the demo, you can simply delete this folder after importing.
+> ⚠️ **Note:** This option includes the demo content by default, located at `LordBreakerX/CompassSystem/Demo` folder from your project's "Assets" directory. If you prefer not to include the demo, you can simply delete this folder after importing.
 
 # How to setup
 ## Compass user interface (UI)
