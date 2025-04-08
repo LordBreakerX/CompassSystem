@@ -1,13 +1,27 @@
-# How to download to use
-You can download the project by either using the unity package, downloading the full project as a zip or cloning this repo.
-## Unity package
-1. open folder with the name "UnityPackages" within the repo
-2. look for the unity package with the name "Compass" or "CompassWithDemo" depending on if you want the demo included or not.
-3. click on your desired package and then on the three dots on the right side
-4. then click download on the dropdown
-    
-## Downloading full repo as a zip
-## Cloning Repo
+# Adding the Compass System to Your Unity Project
+
+You can integrate the Compass system into your Unity project by either importing it as a Unity package or by downloading the full project as a ZIP file. The method you choose depends on how you want to access and use the Compass system (with or without demo content).
+
+## Option 1: Importing the Unity Package
+
+1. In this repository, navigate to the `UnityPackages` folder.
+2. Choose one of the following packages:
+   - `Compass`: Contains only the core compass system.
+   - `CompassWithDemo`: Includes the core system along with a demo scene.
+3. Click on your preferred package, then click the three dots (`...`) on the right side.
+4. Select **Download** from the dropdown menu.
+5. Open your Unity project.
+6. In the **Project** window, right-click and choose **Import Package > Custom Package...**.
+7. Locate the `.unitypackage` file you just downloaded and click **Open** to import it.
+
+## Option 2: Downloading the Full Project as a ZIP
+
+1. From the root of the repository, click the green **Code** button.
+2. Select **Download ZIP** from the dropdown menu.
+3. Unzip the downloaded file.
+4. You can now either:
+   - Open Unity Hub and add the unzipped project as a full Unity project.
+   - Or, if you only want to use the Compass system, drag the `LordBreakerX` folder from the unzipped files into your existing Unity project's **Assets** folder or directly into the **Project** window in Unity.
 
 # How to setup
 ## Compass user interface (UI)
