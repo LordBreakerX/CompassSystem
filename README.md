@@ -1,4 +1,8 @@
-# How to Install
+# How to add to project
 
-## Setup
-test
+
+# How to setup
+## Compass User Interface (UI)
+## Landmarks
+## Adding Landmark Icons
+
