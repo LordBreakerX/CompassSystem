@@ -56,4 +56,4 @@ You can integrate the Compass system into your Unity project by either importing
 
 ## Documentation
 
-For detailed usage instructions, examples, and advanced configuration options, refer to the [Compass System Wiki](https://github.com/YourUsername/YourRepository/wiki).
+For detailed usage instructions, examples, and advanced configuration options, refer to the [Compass System Wiki](https://github.com/LordBreakerX/CompassSystem/wiki).
