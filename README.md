@@ -23,11 +23,11 @@ A customizable and extendable compass system for Unity that displays directional
 
 ---
 
-# Adding the Compass System to Your Unity Project
+## Adding the Compass System to Your Unity Project
 
 You can integrate the Compass system into your Unity project by either importing it as a Unity package or by downloading the full project as a ZIP file. The method you choose depends on how you want to access and use the Compass system (with or without demo content).
 
-## Option 1: Importing the Unity Package
+### Option 1: Importing the Unity Package
 
 1. In this repository, navigate to the `UnityPackages` folder.
 2. Choose one of the following packages:
@@ -41,7 +41,7 @@ You can integrate the Compass system into your Unity project by either importing
 
 > ℹ️ **Note:** If you imported the `CompassSystem_WithDemo` package and want to remove the demo content, you can delete the `LordBreakerX/CompassSystem/Demo` folder from your project's `Assets` directory.
 
-## Option 2: Downloading the Full Project as a ZIP
+### Option 2: Downloading the Full Project as a ZIP
 
 1. From the root of the repository, click the green **Code** button.
 2. Select **Download ZIP** from the dropdown menu.
@@ -51,10 +51,3 @@ You can integrate the Compass system into your Unity project by either importing
    - Or, if you want to add the Compass system to an existing Unity project, drag the `LordBreakerX` folder into your project's **Assets** folder or directly into the **Project** window in Unity.
 
 > ⚠️ **Note:** This option includes the demo content by default, located at `LordBreakerX/CompassSystem/Demo` folder from your project's `Assets` directory. If you prefer not to include the demo, you can simply delete this folder after importing.
-
-# Features
-- show icons in the direction of configured landmarks in the game world.
-- The landmarks icons on the compass scale and transparency changes depending on how close or far away from the landmark the player is.
-- The ability to configure static directional icons for the compass. for example, the compass could have no directional icons. It could also have North, East, South and West, Or it could have any combination of directions.
-- Create list of icons that can be select for a landmarks icon (allowing for sorting icons) and makes selecting icons for a landmark straighfoward.
-- The ability to make landmarks react on the compass differently to the characaters positon through coding and inheritence (making a class that inherits from the Landmark class).
