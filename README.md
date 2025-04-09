@@ -1,3 +1,28 @@
+# Compass System for Unity
+
+A customizable and extendable compass system for Unity that displays directional and landmark icons in the game world. This system is ideal for adventure, RPG, and exploration-based games where navigation and world orientation are essential.
+
+---
+
+## Features
+
+- 📍 **Landmark Icons**  
+  Icons appear on the compass, pointing toward configured landmarks in the game world.
+
+- 🔍 **Distance-Based Scaling & Fading**  
+  Landmark icons automatically scale and change transparency based on the player's distance from them.
+
+- 🧭 **Configurable Directional Markers**  
+  Add only the directional icons you need — North, East, South, West, or any custom combination. You can also disable them entirely.
+
+- 🎨 **Icon Selection & Sorting**  
+  Includes a configurable icon list, making it easy to assign and sort icons for landmarks.
+
+- 🧩 **Extendable Landmark Behavior**  
+  Developers can override default behavior by inheriting from the `Landmark` class to create custom landmark interactions based on the player's position or game logic.
+
+---
+
 # Adding the Compass System to Your Unity Project
 
 You can integrate the Compass system into your Unity project by either importing it as a Unity package or by downloading the full project as a ZIP file. The method you choose depends on how you want to access and use the Compass system (with or without demo content).
@@ -31,4 +56,5 @@ You can integrate the Compass system into your Unity project by either importing
 - show icons in the direction of configured landmarks in the game world.
 - The landmarks icons on the compass scale and transparency changes depending on how close or far away from the landmark the player is.
 - The ability to configure static directional icons for the compass. for example, the compass could have no directional icons. It could also have North, East, South and West, Or it could have any combination of directions.
-- The ability
+- Create list of icons that can be select for a landmarks icon (allowing for sorting icons) and makes selecting icons for a landmark straighfoward.
+- The ability to make landmarks react on the compass differently to the characaters positon through coding and inheritence (making a class that inherits from the Landmark class).
