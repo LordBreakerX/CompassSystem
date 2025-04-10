@@ -27,7 +27,7 @@ A customizable and extendable compass system for Unity that displays directional
 
 You can integrate the Compass system into your Unity project by either importing it as a Unity package or by downloading the full project as a ZIP file. The method you choose depends on how you want to access and use the Compass system (with or without demo content).
 
-### Option 1: Importing the Unity Package
+##### Option 1: Importing the Unity Package
 
 1. In this repository, navigate to the `UnityPackages` folder.
 2. Choose one of the following packages:
